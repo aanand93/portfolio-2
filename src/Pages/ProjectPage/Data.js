@@ -13,4 +13,5 @@ export const homeObjTwo = {
 	img: require('../../Images/developer_activity.svg').default,
 	alt: 'Image',
 	start: '',
+	link: 'https://github.com/aanand93/portfolio-2',
 };

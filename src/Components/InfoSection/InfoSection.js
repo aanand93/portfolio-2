@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Container, Button } from '../../globalStyles';
 import {
 	InfoSec,
@@ -27,6 +26,7 @@ const InfoSection = ({
 	start,
 	img,
 	alt,
+	link,
 }) => {
 	return (
 		<div>
@@ -40,11 +40,9 @@ const InfoSection = ({
 								<Subtitle lightTextDesc={lightTextDesc}>
 									{descriptions}
 								</Subtitle>
-								<Link to='/sign-up'>
-									<Button big fontBig primary={primary}>
-										{buttonLabel}
-									</Button>
-								</Link>
+								<Button href={link} type='button' target='_blank' big fontBig>
+									{buttonLabel}
+								</Button>
 							</TextWrapper>
 						</InfoColumn>
 						<InfoColumn>

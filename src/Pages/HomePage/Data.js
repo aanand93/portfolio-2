@@ -30,6 +30,7 @@ export const homeObjTwo = {
 	img: require('../../Images/developer_activity.svg').default,
 	alt: 'Image',
 	start: '',
+	href: 'https://github.com/aanand93/portfolio-2',
 };
 
 export const homeObjThree = {

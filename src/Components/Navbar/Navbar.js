@@ -26,7 +26,7 @@ const Navbar = () => {
 				<Nav>
 					<NavbarContainer>
 						<NavLogo to='/'>
-							<NavIcon />
+							<NavIcon to='/' />
 							Alex Anand
 						</NavLogo>
 						<HamburgerIcon onClick={handleClick}>
