@@ -10,9 +10,10 @@ export const Nav = styled.nav`
 	justify-content: center;
 	align-items: center;
 	font-size: 1.2rem;
-	position: sticky;
+	position: fixed;
 	top: 0;
 	z-index: 999;
+	width: 100%;
 `;
 
 export const NavbarContainer = styled(Container)`
@@ -39,7 +40,6 @@ export const NavIcon = styled(GrReactjs)`
 
 export const HamburgerIcon = styled.div`
 	display: none;
-
 	@media screen and (max-width: 960px) {
 		display: block;
 		position: absolute;
@@ -56,14 +56,13 @@ export const NavMenu = styled.ul`
 	align-items: center;
 	list-style: none;
 	text-align: center;
-
 	@media screen and (max-width: 960px) {
 		display: flex;
 		flex-direction: column;
 		width: 100%;
 		height: 90vh;
 		position: absolute;
-		top: 90px;
+		top: 80px;
 		left: ${({ click }) => (click ? 0 : '-100%')};
 		opacity: 1;
 		transition: all 0.5s ease;
@@ -106,26 +105,4 @@ export const NavLinks = styled(Link)`
 			transition: all 0.3s ease;
 		}
 	}
-`;
-
-export const NavItemBtn = styled.li`
-	@media screen and (max-width: 960px) {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		width: 100%;
-		height: 120px;
-	}
-`;
-
-export const NavBtnLink = styled(Link)`
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-decoration: none;
-	padding: 8px 16px;
-	height: 100%;
-	width: 100%;
-	border: none;
-	outline: none;
 `;
