@@ -50,5 +50,5 @@ export const homeObjThree = {
 	alt: 'Image',
 	start: '',
 	href1: 'https://www.linkedin.com/in/alexanderanand/',
-	href2: 'https://www.linkedin.com/in/alexanderanand/',
+	href2: 'https://twitter.com/alex_codes44',
 };
