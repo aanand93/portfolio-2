@@ -19,6 +19,7 @@ const InfoSection = ({
 	lightTopLine,
 	lightTextDesc,
 	buttonLabel,
+	buttonLabel2,
 	descriptions,
 	topLine,
 	headline,
@@ -26,7 +27,8 @@ const InfoSection = ({
 	start,
 	img,
 	alt,
-	href,
+	href1,
+	href2,
 }) => {
 	return (
 		<div>
@@ -40,8 +42,11 @@ const InfoSection = ({
 								<Subtitle lightTextDesc={lightTextDesc}>
 									{descriptions}
 								</Subtitle>
-								<Button onClick={() => window.open(href)} big fontBig>
+								<Button onClick={() => window.open(href1)} big fontBig>
 									{buttonLabel}
+								</Button>
+								<Button onClick={() => window.open(href2)} big fontBig>
+									{buttonLabel2}
 								</Button>
 							</TextWrapper>
 						</InfoColumn>

@@ -63,7 +63,7 @@ export const NavMenu = styled.ul`
 		height: 90vh;
 		position: absolute;
 		top: 80px;
-		left: ${({ click }) => (click ? 0 : '-100%')};
+		left: ${({ click }) => (click ? '-30%' : '-100%')};
 		opacity: 1;
 		transition: all 0.5s ease;
 		background: #101522;

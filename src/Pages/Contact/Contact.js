@@ -1,11 +1,11 @@
 import React from 'react';
 import { homeObjThree } from './Data';
-import InfoSection from '../../Components/InfoSection/InfoSection';
+import InfoSection2 from '../../Components/InfoSection/InfoSection2';
 
 const Contact = () => {
 	return (
 		<div>
-			<InfoSection {...homeObjThree} />
+			<InfoSection2 {...homeObjThree} />
 		</div>
 	);
 };
