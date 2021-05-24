@@ -44,7 +44,7 @@ export const homeObjThree = {
 	headline: 'Contact',
 	descriptions: 'Email: alex329@mac.com',
 	buttonLabel: 'LinkedIn',
-	buttonLabel2: 'Twiter',
+	buttonLabel2: 'Twitter',
 	lightText: true,
 	img: require('../../Images/contact.svg').default,
 	alt: 'Image',
