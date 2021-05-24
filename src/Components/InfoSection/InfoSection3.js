@@ -42,7 +42,7 @@ const InfoSection = ({
 									{descriptions}
 								</Subtitle>
 								<Link to={to}>
-									<Button to='/contact' big fontBig primary>
+									<Button to='/contact' big fontBig primary={primary}>
 										{buttonLabel}
 									</Button>
 								</Link>
