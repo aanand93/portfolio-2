@@ -45,9 +45,9 @@ const InfoSection = ({
 								<Button onClick={() => window.open(href1)} big fontBig>
 									{buttonLabel}
 								</Button>
-								<Button onClick={() => window.open(href2)} big fontBig>
+								{/* <Button onClick={() => window.open(href2)} big fontBig>
 									{buttonLabel2}
-								</Button>
+								</Button> */}
 							</TextWrapper>
 						</InfoColumn>
 						<InfoColumn>

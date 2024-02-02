@@ -7,7 +7,7 @@ export const homeObjOne = {
 	topLine: 'Home',
 	headline: "Welcome to Alex Anand's Portfolio",
 	descriptions:
-		'I am a full-stack developer with a background in graphic design and business logistics who has a passion for frontend development and user experience. Tech Skills: HTML | CSS | JS | Docker | React.Js | MongoDB | Mongoose | Express.Js | Node | Python | Django | PostgreSQL | Illustrator | Photoshop | Graphic Design | Procreate. ⚡ Fun fact: I create and design custom apparel and graphics as well as tattoo in my spare time.',
+		'Results-oriented Software Engineer with over 2 years of experience as a Frontend Developer and a foundation in graphic design and business logistics. Actively pursuing a full-time software engineering position with a focus on security and design. Recently completed a bachelors degree in software development and security, dedicating the last 18 months to honing expertise in building efficient and secure web solutions. Adept communicator with strong leadership skills, proficient in collaborating with diverse teams, and thriving in dynamic environments. Demonstrates composure and focus in high-pressure scenarios, consistently achieving project objectives by leveraging my technical expertise.',
 	buttonLabel: 'Contact Me Today',
 	lightText: true,
 	img: require('../../Images/programmer2.svg').default,

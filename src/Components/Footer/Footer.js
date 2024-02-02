@@ -22,12 +22,12 @@ const Footer = () => {
 					</SocialLogo>
 					<WebsiteRights>Alex Anand © 2020</WebsiteRights>
 					<SocialIcons>
-						<SocialIconLink
+						{/* <SocialIconLink
 							href={'https://twitter.com/alex_codes44'}
 							target='_blank'
 							aria-label='Twitter'>
 							<FaTwitter />
-						</SocialIconLink>
+						</SocialIconLink> */}
 						<SocialIconLink
 							href={'https://github.com/aanand93'}
 							target='_blank'

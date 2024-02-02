@@ -8,11 +8,11 @@ export const homeObjThree = {
 	headline: 'Contact',
 	descriptions: 'Email: alex329@mac.com',
 	buttonLabel: 'LinkedIn',
-	buttonLabel2: 'Twitter',
+	// buttonLabel2: 'Twitter',
 	lightText: true,
 	img: require('../../Images/contact.svg').default,
 	alt: 'Image',
 	start: '',
 	href1: 'https://www.linkedin.com/in/alexanderanand/',
-	href2: 'https://www.linkedin.com/in/alexanderanand/',
+	// href2: 'https://www.linkedin.com/in/alexanderanand/',
 };

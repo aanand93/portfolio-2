@@ -54,7 +54,7 @@ export const SocialIcons = styled.div`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 240px;
+	width: 60px;
 `;
 
 export const SocialIconLink = styled.a`
